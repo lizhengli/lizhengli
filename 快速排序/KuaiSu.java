@@ -1,0 +1,16 @@
+import java.util.*;
+public class KuaiSu{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int[] a = new int[10];
+		System.out.println("请输入十个整数进行升序排序");
+		for(int i = 0;i<10;i++){
+			a[i] = sc.nextInt();
+		}
+		Arrays.sort(a);
+		for(int i = 0;i<10;i++){
+			System.out.println(a[i]+"\t");
+		}
+	}
+	
+}
