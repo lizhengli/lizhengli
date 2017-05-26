@@ -1,0 +1,4 @@
+3 Hashtable与HashMap的区别
+
+   Hashtable 线程安全 不允许有null的键和值 效率稍低 
+   HashMap 线程不安全 允许有null的键和值 效率高一点

@@ -1,0 +1,4 @@
+ ArryList与LinkedList的区别
+
+    ArrayList：线程不安全，查询速度快 
+    LinkedList：链表结构，增删速度快
